@@ -1,4 +1,4 @@
-alert("Olá Seja Bem-Vindo")
+alert("Olá Seja Bem-Vindo");
 
 let p1=prompt("Digite seu NOME:");
 
@@ -10,4 +10,4 @@ let p4=prompt("Digite um LUGAR que gostaria de estar:");
 
 let msg= document.getElementById('msg')
 
-msg.innerHTML ='<p>Olá ${p1} o seu poder é/a ${p2} você vai enfrentar o/a ${p3} no em ${p4}'
+msg.innerHTML =`<p>Olá ${p1} o seu poder é/a ${p2} você vai enfrentar o/a ${p3} no em ${p4}`;
