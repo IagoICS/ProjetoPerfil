@@ -1,17 +1,49 @@
-body{ background-color: black; }
-
-h1{
-
-font-size: 50px;
-color: crimson;
-text-align: center;
+body {
+    background-color: #000;
+    background-image: url("spiderman-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
 }
 
-p{ 
-    background-image: linear-gradient(to right, aqua, purple); 
+h1 {
+    font-size: 50px;
+    color: #E51837;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #FFD700, #E51837);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
+    -webkit-text-fill-color: transparent;
     background-clip: text;
-     font-size: 40px; 
-     text-align: center; 
-     text-transform: uppercase; }
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    font-size: 24px;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #E51837;
+    color: #FFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #FFD700;
+}
